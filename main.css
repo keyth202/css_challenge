@@ -1,0 +1,84 @@
+html{
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: #d4d4d4;
+	margin:0px;
+	height: 90px;
+	width:100%;
+	border:0px;
+	padding-left:5%;
+	padding-right:5%;
+}
+nav ul {
+	padding-top:50%;
+	list-style-type: none;
+	display:inline;
+	font-family: "Verdana", serif;
+	font-size:20px;
+	
+}
+nav ul li.rightnav{
+	float:right;
+	right:100px;
+	position:relative;
+	text-indent:10px;
+	display:inline;
+	
+}
+
+nav a{
+	text-decoration: none;
+}
+
+ main{
+ 	margin-top:100px;
+ 	margin-left:100px;
+ 	text-align: left;
+ }
+form{
+	margin:20px;
+}	
+form input{
+ 	height:40px;
+ 	width:400px;
+ 	display:inline-block;
+ 	border-radius:10px;
+}
+
+form input.mag {
+	display:inline-block;
+	height:40px;
+	width:40px;
+}
+
+span.choicebar{
+	display: inline-block;
+	border: solid 1px ;
+	margin:0;
+	font-size:15;
+}
+
+.prev a::before{
+	content: "<";
+	
+}
+.next a::after{
+	content:">";
+}
+div .ads{
+	color:grey;
+	margin-top:50px;
+
+}
+div .ads a{
+	color:blue;
+}
+
+.ads li{
+	text-indent:10px;
+	display:inline;
+	text-decoration: none;
+	margin-bottom:10px;
+}
